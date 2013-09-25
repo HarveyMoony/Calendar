@@ -2,20 +2,37 @@
 body { font: 12px/18px Arial, Tahoma, Verdana, sans-serif; width: 100%;}
 a {color: blue;	outline: none; text-decoration: underline;}
 a:hover {text-decoration: none;}
-p {margin: 0 0 18px}
 img {border: none;}
 input {vertical-align: middle;}
 #wrapper {width: 100%;}
 .content {width: 900px; margin: 0 auto}
 
+
+/* Common
+-----------------------------------------------------------------------------*/
+.btn {}
+    .btn-general {border: none; border-radius: 2px; color: #FFFFFF; font: bold 12px/25px arial; padding: 0 10px; cursor: pointer}
+        .btn-general-blue {background: #006FCA}
+        .btn-general-blue:hover {background: #0789F4}
+    .btn-cal {}
+
+.input-text {line-height: 25px; height: 25px; border: 1px solid #D2D2D2; box-sizing: border-box; -moz-box-sizing: border-box; border-radius: 2px; padding: 0 5px}
+
+
 /* Header
 -----------------------------------------------------------------------------*/
 #header {height: 100px;	background: #F4F4F4; box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2)}
 
+.header-action-block {padding-top: 55px; float: left}
+    .header-action-block button{margin-right: 7px}
+
+.header-search-block {padding-top: 55px; float: right}
+    .input-srch {width: 200px}
+
 
 /* Middle
 -----------------------------------------------------------------------------*/
-
+#middle {width: 900px; margin: 0 auto}
 
 
 /* Footer
