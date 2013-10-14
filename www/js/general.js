@@ -10,7 +10,7 @@ window.onload  = function () {
         bindEvents: function () {
 
         },
-        createCalendar: function createCalendar(id, year, month) {
+        createCalendar: function (id, year, month) {
             var weekDay = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'],
                 monthName = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
                 date = new Date(year, month),
@@ -33,8 +33,6 @@ window.onload  = function () {
                 tr.appendChild(elem);
 
                 // месяц год
-
-                elem = document.createElement('th');
                 elem.setAttribute('colspan', '5');
                 elem.appendChild(document.createTextNode(cell));
                 tr.appendChild(elem);
