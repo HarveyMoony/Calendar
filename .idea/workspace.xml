@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9940fe1-b128-44e1-986c-6f1b5f71cd7f" name="Default" comment="Start">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/general.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/general.js" afterPath="$PROJECT_DIR$/www/js/general.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Calendar.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d9940fe1-b128-44e1-986c-6f1b5f71cd7f" time="1380048766730" ignored="false" />
+    <file path="/Dummy.txt" changelist="d9940fe1-b128-44e1-986c-6f1b5f71cd7f" time="1381749125361" ignored="false" />
     <file path="/index.html" changelist="d9940fe1-b128-44e1-986c-6f1b5f71cd7f" time="1380134480749" ignored="false" />
-    <file path="/style.css" changelist="d9940fe1-b128-44e1-986c-6f1b5f71cd7f" time="1379873527627" ignored="false" />
-    <file path="/general.js" changelist="d9940fe1-b128-44e1-986c-6f1b5f71cd7f" time="1380135032046" ignored="false" />
+    <file path="/style.css" changelist="d9940fe1-b128-44e1-986c-6f1b5f71cd7f" time="1381749097811" ignored="false" />
+    <file path="/general.js" changelist="d9940fe1-b128-44e1-986c-6f1b5f71cd7f" time="1381753142501" ignored="false" />
     <file path="$PROJECT_DIR$/../ciscoconnect/www/sites/all/modules/fctools/assets/libs/mpdf/templates/agreement_group_payment.html" changelist="d9940fe1-b128-44e1-986c-6f1b5f71cd7f" time="1377112009804" ignored="false" />
     <file path="/agreement_group_payment.html" changelist="d9940fe1-b128-44e1-986c-6f1b5f71cd7f" time="1377112009805" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Open Server/domains/gms/www/index.php" changelist="d9940fe1-b128-44e1-986c-6f1b5f71cd7f" time="1381749103084" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Open Server/domains/gms/www/css/style.css" changelist="d9940fe1-b128-44e1-986c-6f1b5f71cd7f" time="1381749098722" ignored="false" />
+    <file path="/index.php" changelist="d9940fe1-b128-44e1-986c-6f1b5f71cd7f" time="1381749102205" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +35,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <file leaf-file-name="general.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/js/general.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="37" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.0">
+            <state line="21" column="56" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.40112358">
               <folding />
             </state>
           </provider>
@@ -46,16 +47,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="25" selection-start="843" selection-end="851" vertical-scroll-proportion="-19.615385">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="general.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/js/general.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="53" selection-start="574" selection-end="574" vertical-scroll-proportion="0.315847">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -89,7 +81,6 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1096" />
   </component>
@@ -191,71 +182,26 @@
   </component>
   <component name="PublishConfig">
     <servers>
-      <server id="06412fc3-566a-441f-8bbd-8c5fdc2d1bea">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-      <server id="14f840de-c61b-4100-a7c8-90d66c7a7dfd">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-      <server id="26ec9bc3-caab-4ef3-8a39-45c74e203cb6">
+      <server id="1184c0af-b83b-4f73-9afa-27ce71dbec8d">
         <serverdata />
       </server>
-      <server id="56881778-6307-4624-8c96-07dbeebed20d">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="48ed9c18-6dfb-4584-a994-9bfa51531892">
+        <serverdata />
       </server>
-      <server id="70cbaa76-9597-447e-bbb8-bef0f1e0ec64">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="4c597c26-c292-44ce-a1b9-f0296a5b3d0d">
+        <serverdata />
       </server>
-      <server id="9dcfeae2-b3f1-45d0-babc-04fda4b7c3f3">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="9723da39-05ec-47a7-a25c-bb59b46fda9b">
+        <serverdata />
       </server>
-      <server id="a1b5e069-c5dc-4fbd-b712-14c0613f1f4e">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="9e086c27-e73d-4bc6-a716-d8d115c011e4">
+        <serverdata />
       </server>
-      <server id="c124a54a-bf75-4f83-a6da-22ce6f08a667">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="d02dc0d3-b803-4ad5-b754-2aabde61ea0a">
+        <serverdata />
       </server>
-      <server id="d413a143-bf7a-481d-9947-916f57a880d0">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-      <server id="f690cc3e-4fc4-47e5-a329-23ccb007b577">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="d6f498d6-f867-4f7d-8768-bcb417ace02e">
+        <serverdata />
       </server>
     </servers>
   </component>
@@ -306,7 +252,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="0" width="1936" height="1096" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -314,7 +260,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14496574" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14760147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08645229" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -356,7 +302,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -392,114 +338,23 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+    <entry file="file://$PROJECT_DIR$/www/js/general.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="53" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/general.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="53" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/general.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="53" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/general.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="51" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="695" selection-end="705" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="695" selection-end="705" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="695" selection-end="705" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="37" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="25" selection-start="843" selection-end="851" vertical-scroll-proportion="-19.615385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/general.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="53" selection-start="574" selection-end="574" vertical-scroll-proportion="0.315847">
+        <state line="21" column="56" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.40112358">
           <folding />
         </state>
       </provider>
