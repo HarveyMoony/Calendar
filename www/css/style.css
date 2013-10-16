@@ -34,6 +34,13 @@ input {vertical-align: middle;}
 -----------------------------------------------------------------------------*/
 #middle {width: 900px; margin: 0 auto}
 
+#calendar {}
+    .calendar-panel {}
+        .calendar-date {display: inline-block}
+    .calendar-table {}
+        .calendar-table table {border-collapse: collapse; font-size: 11px; color: #999999}
+            .calendar-table td {border: 1px solid #EBEBEB; width: 128px; height: 128px; padding: 6px; box-sizing: content-box; -moz-box-sizing: border-box; vertical-align: top}
+
 
 /* Footer
 -----------------------------------------------------------------------------*/

@@ -2,52 +2,31 @@ window.onload  = function () {
 
 
     var calendar = {
-        initialize: function () {
+        initialize: function (id, year, month) {
             var now = new Date;
-            this.bindEvents();
-            this.createCalendar('calendar', now.getFullYear(), now.getMonth());
+            this.createCalendar(id, year, month);
+            this.bindEvents(year, month);
         },
-        bindEvents: function () {
+        bindEvents: function (year, month) {
+            var prev_btn = document.getElementById('prev-month'),
+                next_btn = document.getElementById('next-month');
 
+            prev_btn.addEventListener('click', function(){calendar.createCalendar("calendar-table", year, (month - 1)); month -= 1}, false);
+            next_btn.addEventListener('click', function(){calendar.createCalendar("calendar-table", year, (month + 1)); month += 1}, false);
         },
         createCalendar: function (id, year, month) {
             var weekDay = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'],
                 monthName = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
                 date = new Date(year, month),
-                dayCount = (new Date(year, month + 1, 0)).getDate(),        // количество дней в месяце
+                dayCount = (new Date(year, month, 0)).getDate(),        // количество дней в месяце
                 dayNum = 1 - (date.getDay() == 0 ? 7 : date.getDay()),      // день недели первого числа месяца
-
-                parent = document.getElementById(id),                       // элемент, в который вставляется календарь
-
+                parent = document.getElementsByClassName(id)[0],            // элемент, в который вставляется календарь
                 table = document.createElement('table'),
-                tr = document.createElement('tr'),
-                elem = document.createElement("th"),
-                button = document.createElement("button"),
+                date_txt = monthName[date.getMonth()] + ' ' + date.getFullYear() + ' г',
+                date_block = document.getElementsByClassName('calendar-date')[0];  // название месяца и года
 
-                cell = monthName[date.getMonth()] + ' ' + date.getFullYear() + ' г';  // название месяца и года
+                date_block.innerHTML = date_txt;
 
-                // листать влево
-                button.setAttribute('onclick', 'calendar.createCalendar("calendar", ' + year + ', ' + (month - 1) + ')');
-                button.appendChild(document.createTextNode('<'));
-                elem.appendChild(button);
-                tr.appendChild(elem);
-
-                // месяц год
-                elem.setAttribute('colspan', '5');
-                elem.appendChild(document.createTextNode(cell));
-                tr.appendChild(elem);
-
-                // листать вправо
-                button = document.createElement("button");
-                button.setAttribute('onclick', 'calendar.createCalendar("calendar", ' + year + ', ' + (month + 1) + ')');
-                button.appendChild(document.createTextNode('>'));
-                var elem = document.createElement("th");
-                elem.appendChild(button);
-                tr.appendChild(elem);
-
-                table.appendChild(tr);
-
-            // вторая строка шапки и тело календаря
             for (var row = 0; dayNum < dayCount; row++) { // создавать строки, если в них есть хоть один день. Актуально для некоторых февралей, например 2010г.
                 var tr = document.createElement('tr');
                 table.appendChild(tr);
@@ -56,31 +35,29 @@ window.onload  = function () {
                     if (row == 0) {
                         // заполнение шапки календаря
                         elem = document.createElement('th');
-                        cell = weekDay[col];
+                        date_txt = weekDay[col];
                     } else {
                         // заполнение тела календаря
                         dayNum++;
                         elem = document.createElement('td');
                         if ((dayNum > 0) && (dayNum <= dayCount)) {
                             elem.className = 'out';
-                            cell = dayNum;
+                            date_txt = dayNum;
                         }
-                        cell = (new Date(year, month, dayNum)).getDate();
+                        date_txt = (new Date(year, month, dayNum)).getDate();
                     }
                     // заполняем ячейку календаря
-                    elem.appendChild(document.createTextNode(cell));
+                    elem.appendChild(document.createTextNode(date_txt));
                     tr.appendChild(elem);
                 }
             }
 
             parent.innerHTML = "";
             parent.appendChild(table);
-
-            console.timeEnd('Lo');
         }
 
     };
 
-    calendar.initialize();
+    calendar.initialize('calendar-table', 2013, 9);
 
 };
